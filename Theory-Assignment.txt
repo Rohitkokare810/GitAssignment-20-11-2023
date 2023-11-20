@@ -1,0 +1,25 @@
+Time Complexity Analysis:
+
+The average time complexity of the Quicksort algorithm is O(n log n). However, in the worst case, it can degrade to O(n^2) if the pivot selection is not well-balanced. The partitioning step takes O(n) time.
+
+Comparison with MergeSort:
+
+Advantages of Quicksort:
+
+1.Generally faster than MergeSort in practice for small arrays.
+2.In-place sorting, requiring only a constant amount of additional memory.
+
+Disadvantages of Quicksort:
+
+1.Worst-case time complexity can be O(n^2) if the pivot selection is poor.
+2.Not stable (the relative order of equal elements may change).
+
+Performance Analysis:
+
+The performance analysis section generates arrays of different sizes and measures the time it takes to sort them using Quicksort. This empirical testing provides insights into how the algorithm performs on various input sizes.
+
+Conclusion:
+
+Quicksort is a widely used sorting algorithm with good average-case performance, especially for
+
+Continue generating
